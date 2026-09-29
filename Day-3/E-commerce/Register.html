@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Think mart-register</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjg-j9JcRXCCF3SMANqkvJceVK5_KE3v4qcXTlvsjZTg&s=10">
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #eef7f3;
+        }
+
+        .container {
+            width: 420px;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(185, 145, 145, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #74cbae;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        fieldset {
+            border: 1px solid #88c7b2;
+            border-radius: 10px;
+            padding: 25px;
+        }
+
+        legend {
+            color: #a0e3cd;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 0 10px;
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 6px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #f0b1b1;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 25px;
+            border: none;
+            border-radius: 8px;
+            background: #147d5a;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+
+        .login a {
+            color: #147d5a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Think mart</h1>
+        <p class="subtitle">E-commerce application</p>
+
+        <form>
+
+            <fieldset>
+
+                <legend>Create Account</legend>
+
+                <label for="name">Full Name</label>
+                <input 
+                    type="text" name="name" placeholder="Enter your full name"
+                >
+
+                <label for="email">Email</label>
+                <input 
+                    type="email" 
+                    name="email"
+                    placeholder="Enter your email"
+
+                >
+
+                <label for="password">Password</label>
+                <input 
+                    type="password"  
+                    name="password"
+                    placeholder="Create a password"
+
+                >
+
+                <label for="confirmPassword">Confirm Password</label>
+                <input 
+                    type="password" 
+                    name="confirmPassword"
+                    placeholder="Confirm your password"
+                >
+
+                <button type="submit">Register</button>
+
+            </fieldset>
+
+        </form>
+
+        <p class="login">
+            Already have an account?
+            <a href="login.html">Login</a>
+        </p>
+
+    </div>
+
+</body>
+</html>
