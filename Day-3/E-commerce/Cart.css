@@ -74,7 +74,7 @@ main > section:first-child {
     cursor: pointer;
     font-weight: bold;
 }
-.buy-btn:hover {
+.buy:hover {
     background-color: orange;
     border-color: orange;
 }
