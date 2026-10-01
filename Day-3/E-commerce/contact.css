@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  }
+
+body {
+background-image: radial-gradient(grey, white);
+}
+
+header {
+display: flex;
+border-radius: 5px;
+justify-content: space-between;
+padding: 10px;
+align-items: center;
+background-image: linear-gradient(rgb(15, 148, 165), goldenrod, orange);
+position: sticky;
+top: 0;
+z-index: 10;
+}
+
+header > img {
+height: 50px;
+width: 40px;
+}
+
+header > nav > ol {
+min-width: 50vw;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+list-style-type: none;
+}
+
+nav > ol > li {
+text-align: center;
+background-color: aliceblue;
+flex: 1;
+padding: 8px 15px;
+margin: 10px;
+transition: 0.3s;
+border-radius: 5px;
+}
+
+nav > ol > li:hover {
+background-color: goldenrod;
+transform: translateY(-5px);
+box-shadow: 4px 4px 8px gray;
+}
+
+nav > ol > li:hover a {
+color: white;
+}
+
+nav > ol > li > a {
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+font-style: italic;
+color: black;
+}
+
+.contact-section {
+min-height: 80vh;
+padding: 100px 30px;
+text-align: center;
+}
+
+.contact-section h1 {
+font-size: 40px;
+margin-bottom: 40px;
+}
+
+.contact-box {
+width: 500px;
+max-width: 90%;
+margin: auto;
+padding: 40px;
+background-color: aliceblue;
+border-radius: 10px;
+box-shadow: 4px 4px 10px gray;
+}
+
+.contact-box p {
+font-size: 20px;
+margin: 20px;
+}
