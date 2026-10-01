@@ -1,0 +1,22 @@
+Where we use JS : 
+------------------
+    ->We can build dynamic web applications 
+    ->using JS we can Add functionalities to Web Pages 
+    ->here Can achieve DOM(document object model) functionalities using that we can manipulate HTML and CSS 
+    ->to Fetch data from server (API's) and send data to server(API's)
+    ->We can build Server (using node )
+
+
+Tokens : 
+-------
+    ->Tokens are the smallest units js code 
+        types: 
+            1. identifiers 
+                ->
+            2. keywords 
+                ->
+            3. literals 
+                ->
+            4. operators 
+            5. separators 
+            6. comments 

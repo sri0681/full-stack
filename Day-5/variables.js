@@ -19,4 +19,4 @@ console.log(typeof s);
 let z=null;
 console.log(typeof null);
 let p;
-console.log(typeof p)
+console.log(typeof p);

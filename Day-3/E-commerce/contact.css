@@ -13,7 +13,7 @@ border-radius: 5px;
 justify-content: space-between;
 padding: 10px;
 align-items: center;
-background-image: linear-gradient(powderblue, goldenrod, orange);
+background-image: linear-gradient(rgb(15, 148, 165), goldenrod, orange);
 position: sticky;
 top: 0;
 z-index: 10;
