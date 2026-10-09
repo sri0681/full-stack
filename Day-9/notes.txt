@@ -1,0 +1,33 @@
+arrow function:
+    -> arrow functions are used to reduce the sentence of the function
+    -> arrow function are introduced in the function ES6
+    -> arrow function follows three rules
+    rule 1: if arrow fucntion contains more than one statement we need to keep in braces
+    rule 2: if arrow function contains return keyword then we need to keep braces
+    rule 3: In arrow functions this keyword works differently
+            if you are accessing this keyword in arrow function it will target windows object
+
+GEC - global execution context works like JVM 
+
+nested function: 
+    -> function insisde another function
+
+higher order function: 
+    -> any function accept another function as parameter
+
+Callback funtcion :
+    ->any functions that will be passed as a parameter to the higher order function that functions we called as call back functions
+
+
+Generator function:
+    ->used when we dont kno how many times the function should be called
+
+JSON : javascript object notation 
+    -> similar to javascript object
+    -> JSON in built functions 
+        -> JSON.Stringify(which json object you want to convert is passed here)
+        -> JSON.parse(which string you want to convert into object)
+
+BOM(browser object model)
+    -> each and every browser contains browser object model
+    -> browser object model contains inbuilt windows object

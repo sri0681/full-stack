@@ -37,3 +37,5 @@ only for arrays:
 	->map
 	->filter
 	->reduce
+
+write and come 15 browser names and their respective javascript engine names

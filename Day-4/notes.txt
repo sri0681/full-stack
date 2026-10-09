@@ -5,6 +5,7 @@ Where we use JS :
     ->here Can achieve DOM(document object model) functionalities using that we can manipulate HTML and CSS 
     ->to Fetch data from server (API's) and send data to server(API's)
     ->We can build Server (using node )
+    ->javascript is single call stack 
 
 
 Tokens : 
@@ -12,11 +13,10 @@ Tokens :
     ->Tokens are the smallest units js code 
         types: 
             1. identifiers 
-                ->
             2. keywords 
-                ->
             3. literals 
-                ->
             4. operators 
             5. separators 
             6. comments 
+
+lexical scope : to check whether the variable is available in the javascript function
